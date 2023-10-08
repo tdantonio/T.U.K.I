@@ -2,9 +2,9 @@
 
 ## "T.U.K.I - The Ultimate Kernel Implementation"
 
-[Enunciado del TP](https://github.com/moccia01/tp-2023-1c-Codefellas/blob/main/Archivos%20Importantes/T.U.K.I%20-%20v1.1.pdf)
+[Enunciado del TP](https://github.com/tdantonio/T.U.K.I/blob/main/docs/Enunciado%20T.U.K.I%20-%20v1.1.pdf)
 
-[Documento de pruebas del TP](https://github.com/moccia01/tp-2023-1c-Codefellas/blob/main/Archivos%20Importantes/1C2023%20-%20TUKI%20-%20Pruebas.pdf)
+[Documento de pruebas del TP](https://github.com/tdantonio/T.U.K.I/blob/main/docs/1C2023%20-%20TUKI%20-%20Pruebas.pdf)
 
 * Fecha de realización: Abril 2023 -> Julio 2023
 
