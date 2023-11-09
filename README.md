@@ -8,6 +8,17 @@
 
 * Fecha de realización: Abril 2023 -> Julio 2023
 
+## Deploy :electric_plug:
+En una terminal bash:
+ - git clone https://github.com/tdantonio/T.U.K.I.git
+ - cd T.U.K.I/
+ - chmod u+x scripts/dependencies.sh
+ - . ./scripts/dependencies.sh
+ - ./scripts/set_ips.sh <kernel_ip> <cpu_ip> <fs_ip> <mem_ip> <sup>1</sup>
+ 
+Ejecucion de cualquier modulo <sup>2</sup>
+  - ./Debug/<modulo> <config_abs_path> <sup>3</sup>
+
 ## Construido con 🛠️
 
 * [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads) - Virtual Machine
@@ -31,3 +42,8 @@ También podés mirar el gráfico de [contribuciones](https://github.com/tdanton
 * [La caja de UTN](https://lacajadeutn.blogspot.com/)
 * [Blog UTNSO](https://www.utnso.com.ar/)
 * [Foro de consultas](https://github.com/sisoputnfrba/foro)
+
+### Notas :clipboard:
+<p><sup>1</sup> El proyecto esta preparado para correr en un entorno distribuido, aca es donde entra en juego el script set_ips.sh que es el encargado de bindear, a los archivos de configuracion, la ip de donde se esta ejecutando cada modulo.</p>
+<p><sup>2</sup> Hay algunos modulos que dependen de otros, por lo que existe un orden correcto de ejecución. Para más detalle se recomienda leer el enunciado.</p>
+<p><sup>3</sup> En el caso del modulo consola tambien se deberia recibir por parámetro la ruta absoluta al archivo de instrucciones a ejecutar</p>
